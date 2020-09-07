@@ -1,0 +1,313 @@
+/*----------------------------------------------------------------------------
+	colorscheme1.css for colorscheme 1
+
+	this css-file contains all definitions, that depend on the colorscheme.
+
+	(c) Schlund + Partner AG
+----------------------------------------------------------------------------*/
+
+/*-- main container --------------------------------------------------------*/
+
+#container {
+    background: #FFFFFF;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: #9A4646;
+    border-left-color: #9A4646;
+}
+
+/*--- header ---------------------------------------------------------------*/
+
+#header {
+    background: #FFFFFF;
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+#main_nav_container {
+    background-color: #9A4646;
+}
+
+/*--- key visiual ----------------------------------------------------------*/
+
+#key_visual {
+    background: repeat-x 0px 0px;
+    background-image: url(../../images/dynamic/key_visual4.jpg);
+}
+
+/*--- caption --------------------------------------------------------------*/
+
+#slogan {
+    color: #FFFFFF;
+    background: #9A4646 repeat-y;
+    background-image: url(images/static/hbg.gif);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #D3AEAE;
+    border-right-color: #622C2C;
+    border-bottom-color: #411D1D;
+    border-left-color: #B67A7A;
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+#main_nav_list {
+    background-color: #9A4646;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #D3AEAE;
+    border-bottom-color: #411D1D;
+}
+
+/*--- main navigation items ------------------------------------------------*/
+
+a.main_nav_item {
+    color: #000000;
+    background: #E4C9D3;
+    border-top: 1px solid #EFE0E6;
+    border-right: 1px solid #918086;
+    border-bottom: 1px solid #605459;
+    border-left: 1px solid #EAD4DC;
+}
+
+a.main_nav_item:hover {
+    background: #F0D7D7;
+    color: #000000;
+    border-top: 1px solid #655A5A;
+    border-right: 1px solid #F3DFDF;
+    border-bottom: 1px solid #F6E8E8;
+    border-left: 1px solid #988484;
+}
+
+a.main_nav_active_item {
+    color: #ffffff;
+    background: #9A4646;
+    border-top: 1px solid #D3AEAE;
+    border-right: 1px solid #622C2C;
+    border-bottom: 1px solid #411D1D;
+    border-left: 1px solid #B67A7A;
+}
+
+/*--- subnavigation items --------------------------------------------------*/
+
+a.sub_nav_item {
+    color: #000000;
+    background-color: #ffffff;
+    border-top: 1px solid #9A4646;
+    border-right: 1px solid #9A4646;
+    border-bottom: 1px solid #9A4646;
+}
+
+a.sub_nav_item:hover {
+    color: #000000;
+    background: #F0D7D7;
+    border-top: 1px solid #9A4646;
+    border-right: 1px solid #9A4646;
+    border-bottom: 1px solid #9A4646;
+}
+
+a.sub_nav_active_item {
+    color: #FFFFFF;
+    background: #9A4646;
+    border-top: 1px solid #9A4646;
+    border-right: 1px solid #9A4646;
+    border-bottom: 1px solid #9A4646;
+}
+
+a.sub_nav_active_item:hover {
+    color: #000000;
+    background: #E4C9D3;
+    border-top: 1px solid #605459;
+    border-right: 1px solid #E4C9D3;
+    border-bottom: 1px solid #EFE0E6;
+}
+
+/*--- footer ---------------------------------------------------------------*/
+
+#footer {
+    background: #9A4646;
+}
+
+#footer_text {
+    color: #FFFFFF;
+}
+
+/*----------------------------------------------------------------------------
+  default-styles for html-elements
+----------------------------------------------------------------------------*/
+
+/*--- body -----------------------------------------------------------------*/
+
+body#main_body {
+    color: #000000;
+    background: repeat fixed;
+    background-image: url(images/static/bg-site.jpg);
+}
+
+/*--- paragraph ------------------------------------------------------------*/
+
+.content p {
+    color: #333333;
+}
+
+/*--- headings -------------------------------------------------------------*/
+
+.content h1 {
+    color: #9A4646;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #9A4646;
+}
+
+.content h2 {
+    color: #9A4646;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #9A4646;
+}
+
+.content h3 {
+    color: #9A4646;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #9A4646;
+}
+
+/*--- links ----------------------------------------------------------------*/
+
+.content a:link {
+    color: #000000;
+}
+
+.content a:visited {
+    color: #888888;
+}
+
+.content a:hover {
+    color: #990000;
+}
+
+.content a:active {
+    color: #700905;
+}
+
+/*--- tables ---------------------------------------------------------------*/
+
+.content th {
+    color: #ffffff;
+    background-color: #9A4646;
+    padding: 3px 2px 3px 2px;
+}
+
+.content tr.odd {
+    color: #665555;
+    background-color: #E4C9D3;
+    padding: 3px 2px 3px 2px;
+}
+
+.content tr.even {
+    color: #665555;
+    background-color: #FCF3F3;
+    padding: 3px 2px 3px 2px;
+}
+
+/*--- forms ----------------------------------------------------------------*/
+
+.content fieldset {
+    border-color: #9A4646;
+    background: #E8EAEC;
+    padding: 0px;
+    margin: 15px;
+}
+
+.content legend {
+    color: #000000;
+}
+
+.content label {
+    color: #000000;
+}
+
+.content input {
+    border-color: #9A4646;
+}
+
+.content textarea {
+    border-color: #9A4646;
+}
+
+/*--------------------------------------------------------------------------*/
+
+#main_nav_list a.main_nav_active_item {
+    color: #ffffff;
+    background-image: url(../../images/dynamic/buttonset2/n1active.gif);
+    background-position: top left;
+}
+
+#main_nav_list a.main_nav_item {
+    color: #000000;
+    background-image: url(../../images/dynamic/buttonset2/n1.gif);
+    background-position: top left;
+}
+
+#main_nav_list a.main_nav_item:hover {
+    color: #000000;
+    background-image: url(../../images/dynamic/buttonset2/n1hover.gif);
+    background-position: top left;
+}
+
+.sub_nav_list a.sub_nav_active_item {
+    color: #ffffff;
+    background-image: url(../../images/dynamic/buttonset2/s1active.gif);
+    background-position: top left;
+}
+
+.sub_nav_list a.sub_nav_item {
+    color: #000000;
+    background-image: url(../../images/dynamic/buttonset2/s1.gif);
+    background-position: top left;
+}
+
+.sub_nav_list a.sub_nav_item:hover {
+    color: #000000;
+    background-image: url(../../images/dynamic/buttonset2/s1hover.gif);
+    background-position: top left;
+}
+
+#content_container a:active {
+    color: #700905;
+}
+
+#content_container a:hover {
+    color: #990000;
+}
+
+#content_container a:visited {
+    color: #888888;
+}
+
+#content_container a:link {
+    color: #000000;
+}
+
+#content_container h1 {
+    color: #9A4646;
+}
+
+#content_container h2 {
+    color: #9A4646;
+}
+
+#content_container h3 {
+    color: #9A4646;
+}
+
+#content_container, #content_container p {
+    color: #333333;
+}

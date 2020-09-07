@@ -1,0 +1,434 @@
+/*----------------------------------------------------------------------------
+	main.css
+
+	this css-file contains all definitions, that are independend from the
+	colorschemes.
+
+	(c) Schlund + Partner AG
+
+
+	----------------------------------------------------------------------
+	Modified and extended by Barti Bartman for the Sports-Template
+
+	This CSS-File uses the original "Tanteks Box Modell Hack"
+	http://www.tantek.com/CSS/Examples/boxmodelhack.html
+
+	NOTE:
+	Older W3C CSS validators return errors when the voice-family property
+	is used in a 'screen' style sheet. This is an error in the W3C CSS
+	validator itself. The validator should report a warning, not an error,
+	when properties which are unsupported by a particular medium are used,
+	and this has been reported to the W3C:
+
+ ----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------
+ styles for specific classes and ids
+----------------------------------------------------------------------------*/
+
+/*-- global container ------------------------------------------------------*/
+
+#container {
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+    text-align: left;
+    width: 775px;
+}
+
+/*-- main container: contains all between header and footer ----------------*/
+
+#main_container {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+/*--- the main container is devided in sub containers ----------------------*/
+
+#layout_table {
+    position: relative;
+    border-collapse: collapse;
+}
+
+#left_column {
+    vertical-align: top;
+}
+
+#right_column {
+    vertical-align: top;
+}
+
+#left_column_container {
+    position: relative;
+    left: -1px;
+    margin: 10px 0px;
+    padding: 0;
+    width: 190px;
+}
+
+#sub_container2 {
+    margin: 10px 0 0 15px;
+    padding: 0;
+    width: 550px;
+    overflow: hidden;
+}
+
+#content_container {
+    margin: 0;
+    padding: 0;
+    width: 545px;
+}
+
+/*--- header ---------------------------------------------------------------*/
+
+#header {
+    height: 200px;
+    clear: both;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+/*--- key visual -----------------------------------------------------------*/
+
+#key_visual {
+    position: absolute;
+    width: 775px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+}
+
+/*--- logo -----------------------------------------------------------------*/
+
+#logo {
+    width: 264px;
+    height: 60px;
+    position: absolute;
+    top: 94px;
+    left: 510px;
+}
+
+/*--- caption (as text or background image) --------------------------------*/
+
+#slogan {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    padding: 5px 0px 5px 225px;
+    text-decoration: none;
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+#main_nav_container {
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top: 25px;
+    width: 775px;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+}
+
+#main_nav_list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 775px;
+}
+
+#main_nav_list li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+/*--- main navigation items ------------------------------------------------*/
+
+#main_nav_list a {
+    margin: 0;
+    padding: 6px 15px;
+    float: left;
+    text-align: center;
+}
+
+a.main_nav_item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.main_nav_item:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.main_nav_active_item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*--- container for the subnavigation --------------------------------------*/
+
+.sub_nav_container {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*--- subnavigation --------------------------------------------------------*/
+
+.sub_nav_list {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.sub_nav_list li {
+    margin: 0;
+    padding: 0;
+    width: 190px;
+}
+
+/*--- subnavigation items --------------------------------------------------*/
+
+.sub_nav_list a {
+    display: block;
+    width: 190px;
+    text-align: left;
+    padding: 2px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+
+a.sub_nav_item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a.sub_nav_item:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a.sub_nav_active_item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*--- footer ---------------------------------------------------------------*/
+
+#footer {
+    margin: 0;
+    padding: 0;
+    width: 775px;
+}
+
+#footer_text {
+    padding: 10px 0 0 0;
+    margin: 0 30px 0 30px;
+    text-align: center;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------
+  default-styles for html-elements
+----------------------------------------------------------------------------*/
+
+/*--- body -----------------------------------------------------------------*/
+
+body#main_body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+}
+
+/*--- paragraph ------------------------------------------------------------*/
+
+.content p {
+    margin: 5px 0 20px 0;
+    padding: 0;
+    line-height: 15px;
+}
+
+/*--- tables ---------------------------------------------------------------*/
+
+.content table {
+    border-style: dotted;
+    border-width: 1px;
+    border-spacing: 0;
+}
+
+/*--- forms ----------------------------------------------------------------*/
+
+.content fieldset {
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.content input {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.content textarea {
+    border-style: solid;
+    border-width: 1px;
+}
+
+/*--- lists ----------------------------------------------------------------*/
+
+.content ul {
+    list-style-type: square;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+
+.content li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+
+/*--------------------------------------------------------------------------*/
+
+#main_nav_list a.main_nav_active_item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#main_nav_list a.main_nav_item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#main_nav_list a.main_nav_item:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sub_nav_list a.sub_nav_active_item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sub_nav_list a.sub_nav_item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sub_nav_list a.sub_nav_item:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#content_container a:active {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#content_container a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#content_container a:visited {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#content_container a:link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#content_container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#content_container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#content_container h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#content_container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
